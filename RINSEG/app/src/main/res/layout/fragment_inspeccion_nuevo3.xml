@@ -1,0 +1,191 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary1"
+    android:scrollbars="vertical"
+    tools:context="rinseg.asistp.com.ui.fragments.FragmentInspeccionNuevo3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:paddingBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/insp_nuevo3_datos_generales"
+                    android:textColor="@color/colorGray"
+                    android:textSize="14dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/insp_nuevo3_hint_area"
+                        android:textColor="@color/colorGray"
+                        android:textSize="12dp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorWhite"
+                        android:drawableRight="@drawable/ic_pencil"
+                        android:elevation="2dp"
+                        android:hint="@string/insp_nuevo3_hint_area"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="23dp"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorSecondary0"
+                        android:textSize="17.3dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hint_fecha"
+                        android:textColor="@color/colorGray"
+                        android:textSize="12dp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:id="@+id/txt_rop2_fecha"
+                            android:elevation="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:background="@color/colorWhite"
+                            android:gravity="center"
+                            android:hint="@string/hint_fecha"
+                            android:maxLines="1"
+                            android:paddingLeft="6dp"
+                            android:paddingRight="6dp"
+                            android:textColor="@color/colorPrimary"
+                            android:textColorHint="@color/colorSecondary0"
+                            android:textSize="17dp" />
+                        <ImageButton
+                            android:id="@+id/btn_rop2_calendar"
+                            android:elevation="2dp"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:background="@color/colorSecondary"
+                            android:src="@drawable/ic_calendar">
+
+                        </ImageButton>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/insp_nuevo3_hint_tipo_insp"
+                        android:textColor="@color/colorGray"
+                        android:textSize="12dp" />
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/spinner4"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorWhite"
+                        android:elevation="2dp"
+                        android:hint="@string/insp_nuevo3_hint_tipo_insp"
+                        android:textColorHint="@color/colorSecondary0"
+                        android:textSize="17.3dp"
+                        app:ms_arrow_tint="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/insp_nuevo3_hint_empresa_inspeccionada"
+                        android:textColor="@color/colorGray"
+                        android:textSize="12dp" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorWhite"
+                        android:drawableRight="@drawable/ic_pencil"
+                        android:elevation="2dp"
+                        android:hint="@string/insp_nuevo3_hint_empresa_inspeccionada"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingLeft="23dp"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorSecondary0"
+                        android:textSize="17.3dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="@color/colorSecondary0"
+                android:drawableLeft="@drawable/ic_left_circle"
+                android:text="@string/btn_cancelar" />
+
+            <android.support.v4.widget.Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+
+            <Button
+                android:id="@+id/btn_rop_continuar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="@color/colorAccent"
+                android:drawableRight="@drawable/ic_right_circle"
+                android:text="@string/btn_ccontinuar"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

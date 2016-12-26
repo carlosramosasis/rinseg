@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary1"
+    android:scrollbars="vertical"
+    tools:context="rinseg.asistp.com.ui.fragments.FragmentROPPendiente3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:paddingBottom="80dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/compromisos_trabajador_title"
+                    android:textColor="@color/colorGray"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="15dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/border_compromiso"
+                    android:padding="8dp"
+                    android:elevation="3dp"
+                    android:layout_margin="5dp"
+                    >
+                    <TextView
+                        android:id="@+id/txt_compromiso_body"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="body"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16dp"
+                        android:layout_marginBottom="40dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="40dp"
+                        >
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/firma"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimary"
+                            />
+                        <TextView
+                            android:layout_marginRight="20dp"
+                            android:gravity="right"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/empresa"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimary"
+                            />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/txt_compromiso_nota"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="nota"
+                        android:textSize="14dp"
+                        android:layout_marginBottom="20dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+    <include layout="@layout/button_menu_rop"></include>
+
+</FrameLayout>

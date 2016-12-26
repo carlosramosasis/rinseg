@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator_activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="rinseg.asistp.com.ui.activities.ActivityMain"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:elevation="6dp"
+            >
+            <TextView
+                android:id="@+id/txt_numero_pagina"
+                android:gravity="center"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="19dp"
+                android:textColor="@color/colorWhite"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/bar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    >
+
+                </android.support.v7.widget.Toolbar>
+
+
+            </android.support.design.widget.AppBarLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/relative_content_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_below="@+id/bar_layout"
+
+                >
+
+                <include layout="@layout/content_main" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    >
+                    <include layout="@layout/button_menu_rop"
+                        ></include>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/espacio_button_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_alignParentBottom="true"
+                ></LinearLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/buttons_bottom"
+            ></include>
+    </RelativeLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

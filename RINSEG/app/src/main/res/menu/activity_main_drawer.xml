@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rops"
+            android:icon="@drawable/ic_files"
+            android:title="@string/title_rops" />
+        <item
+            android:id="@+id/nav_inspecciones"
+            android:icon="@drawable/ic_pool_box"
+            android:title="@string/nav_inspecciones" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sincronizar"
+                android:icon="@drawable/ic_sync"
+                android:title="@string/nav_sincronizar" />
+            <item
+                android:id="@+id/nav_acerca_de"
+                android:icon="@drawable/ic_info"
+                android:title="@string/nav_acerca_de" />
+            <item
+                android:id="@+id/nav_cerrar_sesion"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/nav_cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>

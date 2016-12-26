@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/background_dialog"
+    android:elevation="13dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        >
+
+        <TextView
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_recupera_rop_titulo"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorSecondary">
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/txt_dialog_codigo_recuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="7dp"
+        android:backgroundTint="@color/colorWhite"
+        android:gravity="center"
+        android:hint="@string/dialog_recupera_rop_txtcodigo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        >
+
+        <Button
+            android:id="@+id/btn_dialog_recupera_cancelar"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorSecondary"
+            android:text="@string/dialog_recupera_rop_btncancelar"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_dialog_recupera_recuperar"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/dialog_recupera_rop_btnrecuperar"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

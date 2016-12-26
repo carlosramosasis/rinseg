@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinator_login_main"
+    >
+
+    <FrameLayout
+        android:id="@+id/frame_login_content"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/backgorund_login"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+

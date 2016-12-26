@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_root_splash"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_accent_gradient"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="rinseg.asistp.com.ui.activities.ActivitySplash"
+    >
+
+    <ImageView
+        android:id="@+id/logo_splash"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_solo_blanco_rinseg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="visible"
+        />
+
+</LinearLayout>

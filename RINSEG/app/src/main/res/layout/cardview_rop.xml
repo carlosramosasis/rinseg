@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    android:background="@color/colorWhite"
+    >
+
+    <RelativeLayout
+        android:id="@+id/linearlayout_card_rop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        >
+        <TextView
+            android:id="@+id/txt_card_view_cod_rop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nombre"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            />
+        <LinearLayout
+            android:id="@+id/linear_fecha_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txt_card_view_tipo_evento_rop"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            >
+            <TextView
+                android:id="@+id/txt_card_view_fec_crea_rop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23/34/34"
+                android:textSize="13sp"
+                android:layout_marginRight="7dp"
+                />
+            <TextView
+                android:id="@+id/txt_card_view_hora_crea_rop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12:12 pm"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_card_view_tipo_evento_rop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tipo evento"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:lines="1"
+            />
+        <TextView
+            android:id="@+id/txt_card_view_empresa_rop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="empresa"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@+id/txt_card_view_tipo_evento_rop"
+            android:lines="1"
+            />
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,224 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary1"
+    android:scrollbars="vertical"
+    tools:context="rinseg.asistp.com.ui.fragments.FragmentIncidenciaNuevo1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical"
+                android:scrollbars="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscidencia_nuevo1_hint_tipo"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorWhite"
+                    android:elevation="2dp"
+                    android:hint="@string/inscidencia_nuevo1_hint_tipo"
+                    android:textColorHint="@color/colorSecondary0"
+                    android:textSize="17.3dp"
+                    app:ms_arrow_tint="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_descr"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
+                <EditText
+                    android:id="@+id/text_input_usuariod"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:height="100dp"
+                    android:background="@color/colorWhite"
+                    android:drawableRight="@drawable/ic_pencil"
+                    android:elevation="2dp"
+                    android:hint="@string/hint_descr"
+                    android:inputType="textMultiLine"
+                    android:maxLines="10"
+                    android:paddingBottom="7dp"
+                    android:paddingLeft="23dp"
+                    android:paddingRight="15dp"
+                    android:paddingTop="11dp"
+                    android:scrollbars="vertical"
+                    android:textColorHint="@color/colorSecondary0"
+                    android:textSize="17.3dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscidencia_nuevo1_hint_frecuencia"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner7"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorWhite"
+                    android:elevation="2dp"
+                    android:hint="@string/inscidencia_nuevo1_hint_frecuencia"
+                    android:textColorHint="@color/colorSecondary0"
+                    android:textSize="17.3dp"
+                    app:ms_arrow_tint="@color/colorPrimaryDark" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscidencia_nuevo1_hint_severidad"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorWhite"
+                    android:elevation="2dp"
+                    android:hint="@string/inscidencia_nuevo1_hint_severidad"
+                    android:textColorHint="@color/colorSecondary0"
+                    android:textSize="17.3dp"
+                    app:ms_arrow_tint="@color/colorPrimaryDark" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:text="@string/inscidencia_nuevo1_hint_categoria_riesgo"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:text="@string/inscidencia_nuevo1_hint_nivel_riesgo"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscidencia_nuevo1_hint_campo_afectacion"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorWhite"
+                    android:elevation="2dp"
+                    android:hint="@string/inscidencia_nuevo1_hint_campo_afectacion"
+                    android:textColorHint="@color/colorSecondary0"
+                    android:textSize="17.3dp"
+                    app:ms_arrow_tint="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/inscidencia_nuevo1_hint_fecha_limite"
+                    android:textColor="@color/colorGray"
+                    android:textSize="12dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:id="@+id/txt_rop2_fecha"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:elevation="2dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@color/colorWhite"
+                        android:gravity="center"
+                        android:hint="@string/inscidencia_nuevo1_hint_fecha_limite"
+                        android:maxLines="1"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="6dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorSecondary0"
+                        android:textSize="17dp" />
+                    <ImageButton
+                        android:id="@+id/btn_rop2_calendar"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:elevation="2dp"
+                        android:background="@color/colorSecondary"
+                        android:src="@drawable/ic_calendar">
+
+                    </ImageButton>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

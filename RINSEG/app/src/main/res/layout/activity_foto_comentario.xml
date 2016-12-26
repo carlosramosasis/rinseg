@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator_foto_comentario"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="rinseg.asistp.com.ui.activities.ActivityFotoComentario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarFotoComentario"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/colorPrimaryDark"
+                >
+
+                <ImageView
+                    android:id="@+id/image_foto_comentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:background="@color/colorSecondary"
+                >
+
+                <EditText
+                    android:id="@+id/txt_comentario"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/backgorund_white"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:lines="8"
+                    android:maxLines="10"
+                    android:minLines="6"
+                    android:padding="4dp"
+                    android:scrollbars="vertical"
+                    android:hint="@string/hint_comentario"
+                    android:elevation="1dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btn_guardar_foto_comentario"
+                    android:layout_width="47dp"
+                    android:layout_height="47dp"
+                    android:background="@drawable/backgorund_circle_gradient"
+                    android:src="@drawable/ic_send"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="7dp"
+                    android:elevation="4dp"
+                    >
+                </ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

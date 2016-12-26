@@ -1,0 +1,38 @@
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+    android:id="@+id/fab_menu_incidencias"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    app:fab_addButtonColorNormal="@color/colorAccent"
+    app:fab_addButtonColorPressed="@color/colorAccentLight"
+    app:rippleColor="@color/colorTertiary"
+    app:fab_addButtonPlusIconColor="@color/colorWhite"
+    app:fab_expandDirection="up"
+    app:fab_labelStyle="@style/menu_labels_style"
+    app:fab_labelsPosition="left"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorAccent"
+        app:fab_icon="@drawable/ic_file_pdf"
+        app:fab_title="@string/label_generar_pdf"
+        app:rippleColor="@color/colorTertiary" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_ver_incidente"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorAccent"
+        app:fab_icon="@drawable/ic_incidentes"
+        app:fab_title="@string/label_ver_incidentes"
+        app:rippleColor="@color/colorTertiary" />
+
+
+
+</com.getbase.floatingactionbutton.FloatingActionsMenu>

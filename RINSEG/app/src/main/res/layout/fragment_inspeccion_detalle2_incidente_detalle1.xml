@@ -1,0 +1,362 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary1"
+    android:scrollbars="vertical"
+    tools:context="rinseg.asistp.com.ui.fragments.FragmentInspeccionIncidenciaDetalle1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:paddingBottom="80dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:background="@drawable/backgorund_white"
+                android:elevation="2dp"
+                >
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_acto_inseguro"
+                    android:textColor="@color/colorGray"
+                    android:textSize="18dp"
+                    android:layout_marginBottom="8dp"
+                    />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rop_c1_desc"
+                android:textColor="@color/colorGray"
+                android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/inscidencia_nuevo1_hint_frecuencia"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/incidencia_detalle_severidad"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/inscidencia_nuevo1_hint_categoria_riesgo"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="14dp"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/incidencia_detalle_nivel_riesgo"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_campo_afect"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="25dp"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/incidencia_detalle_fec_limite"
+                        android:textColor="@color/colorGray"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rop_c1_texto_default"
+                        android:textColor="@color/colorGray"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="15dp"
+
+                        />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_tipo_acto"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_rac_relacinoado"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorAccentDark2">
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_empresa_repo"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_gerencia_repo"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_empresa_pertenece"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_supervisor_cmmm_reportante"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/incidencia_detalle_reportante"
+                    android:textColor="@color/colorGray"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rop_c1_texto_default"
+                    android:textColor="@color/colorGray"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/btn_levantar_incidente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/ic_reparar_acto"
+        app:fab_colorNormal="@color/colorAccent"
+        app:fab_colorPressed="@color/colorAccentDark"
+        app:fab_colorRipple="@color/colorTertiary"/>
+
+</FrameLayout>

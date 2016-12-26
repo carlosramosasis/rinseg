@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@drawable/background_diamonds2"
+
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_marginBottom="20dp"
+    android:elevation="10dp"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/carlos_ramos"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorWhiteTransparent"
+        android:paddingRight="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_nombre_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Studio"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorWhiteTransparent"
+        />
+
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_correo_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="android.studio@android.com"
+            android:textColor="@color/colorTertiary"
+            />
+
+
+</LinearLayout>

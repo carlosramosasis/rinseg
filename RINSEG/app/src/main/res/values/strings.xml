@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">RINSEG</string>
+    <string name="logo_subtitle">Gestor de Observaciones</string>
+
+    <!--Sincronizando datos -->
+    <string name="sincronizando_datos_titulo">Sincronizando Datos</string>
+    <string name="sincronizando_datos_texto">Estamos obteniendo los parámetros de la aplicación. Espere por favor.</string>
+    <string name="sincronizando_error">No se ha logrado obtener los parámetros, intentelo más tarde.</string>
+    <string name="sincronizando_ok">Sincronización exitosa.</string>
+
+    <!--Tabs Rops-->
+    <string name="tab_pendientes">Pendientes</string>
+    <string name="tab_cerrados">Cerrados</string>
+
+    <!--Login Activity -->
+    <string name="usuario_hint">Usuario</string>
+    <string name="contraseña_hint">Contraseña</string>
+    <string name="login_ingresar">Ingresar</string>
+    <string name="msg_servidor_inaccesible">Error de conexión al servidor.</string>
+    <string name="msg_login_fail">Credenciales ingresadas no válidas.</string>
+    <string name="msg_login_incomplete">Ingresar usuario y contraseña.</string>
+
+    <!--titulos para toolbar-->
+    <string name="title_activity_main">RINSEG</string>
+    <string name="title_rops">ROP\'s</string>
+    <string name="title_rops_pendientes">ROP\'s pendientes</string>
+    <string name="title_rops_cerrados">ROP\'s cerrados</string>
+    <string name="title_inspecciones">Inspecciones</string>
+    <string name="title_inspectores">Inspectores</string>
+    <string name="title_responsables">Responsables de área</string>
+    <string name="title_nueva_inspeccion">Nueva Inspección</string>
+    <string name="title_incidentes">Incidentes</string>
+    <string name="title_nuevo_incidente">Nuevo incidente</string>
+    <string name="title_rop">ROP</string>
+    <string name="title_levantamiento">Levantamiento</string>
+    <string name="title_ssma">SSMA</string>
+    <string name="title_add_imagen">Adjuntando imagen</string>
+
+
+    <!--Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!--Nombre de opciones Navigation drawer -->
+    <string name="nav_rops_cerrados">ROP\'s cerrados</string>
+    <string name="nav_rops_pendientes">ROP\'s pendientes</string>
+    <string name="nav_inspecciones">Inspecciones</string>
+    <string name="nav_sincronizar">Sincronizar parámetros</string>
+    <string name="nav_acerca_de">Acerca de</string>
+    <string name="nav_cerrar_sesion">Cerrar Sesión</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--ROPS cerrados-->
+    <string name="dialog_recupera_rop_titulo">Recuperar ROP desde el servidor</string>
+    <string name="dialog_recupera_rop_txtcodigo">Código del ROP a recuperar</string>
+    <string name="dialog_recupera_rop_btnrecuperar">RECUPERAR</string>
+    <string name="dialog_recupera_rop_btncancelar">CANCELAR</string>
+    <string name="pendiente_envio">pendiente de envío</string>
+
+    <!--Nuevo ROP 1-->
+    <string name="hint_potencial_perdida">Potencial de pérdida</string>
+    <string name="hint_tipo_evento">Tipo de evento</string>
+    <string name="hint_blanco">Blanco</string>
+    <string name="hint_area_respon">Área responsable</string>
+    <string name="hint_lugar_exacto">Lugar exacto del evento</string>
+    <string name="hint_empresa">Empresa</string>
+    <string name="hint_fecha">Fecha</string>
+    <string name="hint_hora">Hora</string>
+    <string name="hint_descr">Descripción</string>
+    <string name="btn_cancelar">CANCELAR</string>
+    <string name="btn_ccontinuar">CONTINUAR</string>
+    <string name="error_lugar_exacto_rp1">ingrese lugar exacto del evento</string>
+    <string name="error_fecha_rp1">ingrese fecha del evento</string>
+    <string name="error_hora_rp1">ingrese hora del evento</string>
+    <string name="error_desc_rp1">ingrese descripción del evento</string>
+    <string name="dialog_p1_body">Se perderán los datos ingresados para este ROP</string>
+
+
+    <!--Nuevo ROP 2-->
+    <string name="hint_acto_condicion_sub">Acto o condición sub estándar</string>
+    <string name="acciones_preventivas">Acciones preventivas o correctivas inmediatas realizadas:</string>
+    <string name="hint_accion_preventiva">Acción preventiva o correctiva</string>
+    <string name="hint_responsable">Responsable</string>
+    <string name="btn_agreagar">AGREGAR</string>
+    <string name="btn_atras">ATRAS</string>
+    <string name="msg_lista_acciones">Agregar por lo menos una acción preventiva o correctiva</string>
+    <string name="error_resp_rp2">ingrese responsable de acción preventiva o correctiva</string>
+    <string name="error_accion_rp2">ingrese acción preventiva o correctiva</string>
+    <string name="error_fecha_rp2">ingrese fecha</string>
+    <string name="error_nom_rp2">ingrese nombre de supervisor</string>
+
+    <!--Nuevo ROP 3-->
+    <string name="compromisos_trabajador_title">Compromisos del trabajador</string>
+    <string name="compromisos_trabajador_body">Yo ________________________ , afirmo haber entendido las posibles consecuencias del acto sub estándar que he cometido y me comprometo a no incurrir en este tipo de faltas, porque soy sonciente que estas pueden provocar pérdidas en perjuicio de mi integridad, la de mis compañeros, el proceso productivo de la empresa o el medio ambiente.</string>
+    <string name="firma">FIRMA:</string>
+    <string name="empresa">EMPRESA:</string>
+    <string name="nota">Nota: el observado no está obligado a firmar el presente documento.</string>
+    <!--Nuevo ROP 4-->
+    <string name="datos_reportante">DATOS DEL REPORTANTE</string>
+    <string name="empresa_rop4">Empresa</string>
+    <string name="firma_minuscula">Firma</string>
+    <string name="supervisor_a_cargo">SUPERVISOR A CARGO DE LEVANTAR LA OBSERVACIÓN</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="requiere_investigacion">¿Requiere investigación y análisis de causas?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="btn_terminar">TERMINAR</string>
+    <string name="msg_cerrar_rop_ok">El rop cerrado se envió con éxito.</string>
+    <string name="msg_error_guardar_rop">Ocurrió un error al enviar el rop cerrado al servidor(se enviará cuando se recupere la conexión a internet).</string>
+    <string name="msg_error_cerrar_rop">Ocurrió un error al cerrar el rop.</string>
+    <string name="error_supervisor_rp4">ingrese nombre de supervisor</string>
+    <string name="label_nompre_rop4">Nombre Supervisor</string>
+    <string name="label_empresa_rop4">Empresa</string>
+    <string name="msg_confirmar_cerrar_rop">¿Está seguro de terminar el rop?</string>
+
+
+    <!--ROP Cerrado 1-->
+    <string name="rop_c1_texto_default">--</string>
+    <string name="rop_c1_codigo">Código:</string>
+    <string name="rop_c1_aprobado">Aprobado:</string>
+    <string name="rop_c1_revision">Revisión:</string>
+    <string name="rop_c1_potencial_perdida">Potencial de pérdida:</string>
+    <string name="rop_c1_tipo_evento">Tipo de evento:</string>
+    <string name="rop_c1_blanco">Blanco:</string>
+    <string name="rop_c1_area_resp">Área responsable:</string>
+    <string name="rop_c1_lugar_exacto">Lugar exacto del evento:</string>
+    <string name="rop_c1_empresa">Empresa:</string>
+    <string name="rop_c1_fecha">Fecha:</string>
+    <string name="rop_c1_hora">Hora:</string>
+    <string name="rop_c1_desc">Descripción:</string>
+    <string name="rop_c1_acto_sub">Acto sub estándar:</string>
+    <!--ROP Cerrado 2-->
+    <string name="rop_c2_acciones_preventivas">Acciones preventivas o creativas inmediatas realizadas:</string>
+    <string name="rop_c2_compromiso">Compromiso del trabajador:</string>
+    <string name="rop_c2_reportante">Reportante:</string>
+    <string name="rop_c2_supervisor_a_cargo">Supervisor a cargo de levantar la observación:</string>
+    <string name="rop_c2_requiere_investigacion">¿Requiere investigación y análisis de causa?</string>
+
+    <!--inspeccion nuevo 1-->
+    <string name="insp_nuevo1_lista_inspectores">Lista de inspectores:</string>
+    <string name="insp_nuevo1_hint_dni">DNI</string>
+    <string name="insp_nuevo1_hint_nombre">Nombre</string>
+    <string name="insp_nuevo1_hint_gerencia">Gerencia</string>
+    <string name="insp_nuevo1_btn_agregar_inspector">Agregar Inspector</string>
+    <!--inspeccion nuevo 2-->
+    <string name="insp_nuevo2_lista_responsables">Lista de responsables:</string>
+    <string name="insp_nuevo2_btn_agregar_responsable">Agregar Responsable</string>
+    <!--inspeccion nuevo 3-->
+    <string name="insp_nuevo3_datos_generales">Datos generales del SSMA:</string>
+    <string name="insp_nuevo3_hint_area">Área</string>
+    <string name="insp_nuevo3_hint_tipo_insp">Tipo de inspección</string>
+    <string name="insp_nuevo3_hint_empresa_inspeccionada">Empresa inspeccionada</string>
+    <!--Incidencia nuevo 1-->
+    <string name="inscidencia_nuevo1_hint_tipo">Tipo de incidencia</string>
+    <string name="inscidencia_nuevo1_hint_frecuencia">Frecuencia</string>
+    <string name="inscidencia_nuevo1_hint_severidad">Severidad</string>
+    <string name="inscidencia_nuevo1_hint_categoria_riesgo">Categoría del riesgo</string>
+    <string name="inscidencia_nuevo1_hint_nivel_riesgo">Nivel de riesgo</string>
+    <string name="inscidencia_nuevo1_hint_campo_afectacion">Campo de afectación (Blanco)</string>
+    <string name="inscidencia_nuevo1_hint_fecha_limite">Fecha límite</string>
+    <!--Incidencia nuevo 2-->
+    <string name="inscidencia_nuevo2_hint_tipo_acto">Tipo de acto sub estándar</string>
+    <string name="inscidencia_nuevo2_hint_tipo_condicion">Tipo de condición sub estándar</string>
+    <string name="inscidencia_nuevo2_hint_rac_relacionado">RAC relacionado</string>
+    <string name="inscidencia_nuevo2_hint_reportante">Reportante</string>
+    <string name="inscidencia_nuevo2_hint_responsable_lev">Responsable levantamiento</string>
+    <string name="inscidencia_nuevo2_hint_supervisor_cmmm">Supervisor CMMM del reportante</string>
+
+    <!--Dialog Terminar SSMA -->
+    <string name="dialog_terminar_ssma_titulo">Terminar SSMA</string>
+    <string name="dialog_terminar_ssma_confirmacion">¿Está seguro que desea terminar el reporte SSMA?</string>
+
+    <!--Inspeccion detalle 1-->
+    <string name="inspeccion_detalle1_area">Área:</string>
+    <string name="inspeccion_detalle1_tipo_insp">Tipo de inspección:</string>
+    <string name="inspeccion_detalle1_empr_insp">Empresa inspeccionada:</string>
+    <string name="inspeccion_detalle1_inspectores">Inspectores:</string>
+    <string name="inspeccion_detalle1_responsables">Responsables:</string>
+
+    <!--Inspeccion detalle - Incidencia detalle-->
+    <string name="incidencia_detalle_acto_inseguro">ACTO INSEGURO</string>
+    <string name="incidencia_detalle_condicion_inseguro">CONDICIÓN INSEGURA</string>
+    <string name="incidencia_detalle_frec">Frecuencia:</string>
+    <string name="incidencia_detalle_severidad">Severidad:</string>
+    <string name="incidencia_detalle_cate_riesgo">Categoría del riesgo:</string>
+    <string name="incidencia_detalle_nivel_riesgo">Nivel de riesgo:</string>
+    <string name="incidencia_detalle_campo_afect">Campo de afectación (Blanco):</string>
+    <string name="incidencia_detalle_fec_limite">Fecha límite:</string>
+    <string name="incidencia_detalle_tipo_acto">Tipo de Acto Sub estándar:</string>
+    <string name="incidencia_detalle_tipo_condicion">Tipo de Condición Sub estándar:</string>
+    <string name="incidencia_detalle_rac_relacinoado">RAC relacionado:</string>
+    <string name="incidencia_detalle_empresa_repo">Empresa del reportante:</string>
+    <string name="incidencia_detalle_gerencia_repo">Gerencia del reportante:</string>
+    <string name="incidencia_detalle_empresa_pertenece">Empresa que pertenece:</string>
+    <string name="incidencia_detalle_supervisor_cmmm_reportante">Supervisor CMMM del reportante:</string>
+    <string name="incidencia_detalle_reportante">Reportante:</string>
+
+    <!--Levantar incidencia-->
+    <string name="lev_incidencia_datos_levantamiento">DATOS DE LEVANTAMIENTO</string>
+    <string name="lev_incidencia_fecha">Fecha de levantamiento</string>
+    <string name="lev_incidencia_estatus">Estatus</string>
+    <string name="lev_incidencia_control_operacional">Control operacinoal aplicado (detalle de la acción)</string>
+    <string name="lev_incidencia_potencial_residual">POTENCIAL RESIDUAL</string>
+    <string name="lev_incidencia_cat_nivel_riesgo">Categoría y nivel de riesgo:</string>
+    <string name="btn_grabar">GRABAR</string>
+
+    <!--Cerrar Sesion-->
+    <string name="cerrar_sesion_titulo">Cerrar Sesión</string>
+    <string name="cerrar_sesion_confirmacion">¿Desea salir de la aplicación? \nSe perderá la información de formatos pendientes de cierre.</string>
+    <string name="btn_cerrar_sesion_salir">SALIR</string>
+
+    <!--fab menu rop-->
+    <string name="label_fotos">Fotos</string>
+    <string name="label_importar_foto">Importar foto</string>
+    <string name="label_tomar_foto">Tomar foto</string>
+    <string name="label_generar_pdf">Generar PDF</string>
+    <!--fab menu incidencia-->
+    <string name="label_agregar_incidente">Agregar incidente</string>
+    <!--fab menu inspeccion detalle-->
+    <string name="label_ver_incidentes">Ver incidentes</string>
+
+
+    <!--text default SPINNER's-->
+    <string name="spinner_default">--Seleccionar--</string>
+
+    <!--comentario Foto -->
+    <string name="hint_comentario">Comentario</string>
+    <string name="guardo_ok">Se guardo la imagen</string>
+    <string name="guardo_error">Ocurrio un error al guardar</string>
+    <string name="error_comentario">Ingresar un comentario para la imagen.</string>
+
+    <!--Generic -->
+    <string name="no_internet">Ud. no tiene acceso a internet.</string>
+    <string name="ok">Ok</string>
+    <string name="btn_aceptar">ACEPTAR</string>
+
+</resources>
